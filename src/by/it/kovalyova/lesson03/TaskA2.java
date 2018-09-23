@@ -22,10 +22,11 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
+       System.out.println("Мое любимое стихотворение:");
         String a = "К нам на утренний рассол";
         String b = "Прибыл аглицкий посол,";
         String c = "А у нас в дому закуски";
-        String d = " Полгорбушки да мосол.";
+        String d = "Полгорбушки да мосол.";
         System.out.println(a + "\n" + b + "\n" + c + "\n" + d);
     }
 }
