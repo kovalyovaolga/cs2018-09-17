@@ -23,9 +23,20 @@ package by.it.kovalyova.lesson04;
 
 
  */
+//Ready
 
-
+import java.util.Scanner;
 
 public class TaskB3 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int lim = sc.nextInt();
+        int sum = 1;
+        int t = 2;
+        while (sum<=lim) {
+            System.out.print(sum+",");
+            sum = sum+t;
+            t = t+1;
+        }
+    }
 }
