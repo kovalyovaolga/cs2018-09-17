@@ -10,6 +10,20 @@ package by.it.kovalyova.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList al = new ArrayList();
+        al.add("line1");
+        al.add("line2");
+        al.add("line3");
+        al.add("line4");
+        al.add("line5");
+        System.out.println(al.size());
+        for(int i=0; i<al.size();i++) {
+            System.out.println(al.get(i));
+        }
+
+    }
 }
