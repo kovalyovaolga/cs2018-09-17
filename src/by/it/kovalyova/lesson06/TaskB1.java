@@ -37,7 +37,7 @@ public class TaskB1 {
         };
         DogHelper.printAllNames(dogs);
         double a = DogHelper.averageAge(dogs);
-        System.out.println();
+        System.out.println(a);
     }
 
 }
